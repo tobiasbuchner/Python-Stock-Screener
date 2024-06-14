@@ -24,6 +24,6 @@ tickers_df = pd.DataFrame({'name': ticker_names, 'symbol': ticker_symbols,
                            'industries': ticker_industries,
                            'source_index': stock_indices,
                            'isins': ticker_isins})
-# tickers_df.to_csv("./tickers.csv")
+tickers_df.to_csv("./tickers.csv")
 
 print(tickers_df)
