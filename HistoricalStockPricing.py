@@ -56,4 +56,4 @@ historical_pricing_df = pd.DataFrame({'ticker': ticker,
                                       'close': close,
                                       'adj_close': adj_close,
                                       'volume': volume})
-historical_pricing_df.to_csv("./historical_pricing.csv")
+# historical_pricing_df.to_csv("./historical_pricing.csv")
